@@ -1,0 +1,30 @@
+@function make-color ($color) {
+  @return $color + #010;
+}
+
+@mixin text-format($size, $family, $color) {
+  font: {
+    size: $size;
+    family: $family;
+  };
+  color: make-color($color);
+}
+
+.foo {
+  @include text-format(42px, verdana, blue);
+  @extend .block;
+  //font-size: 12px;
+  //padding: 10px;
+  //width: 50%;
+  .nested-foo {
+    background-color: green;
+  }
+}
+
+.block {
+  color: orange;
+}
+
+// .site-header {
+//   @include text-format(42px, verdana, blue)
+// }

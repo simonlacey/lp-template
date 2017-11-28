@@ -1,0 +1,78 @@
+/* -------------------------------------
+this is for all forms
+----------------------------------------- */
+
+/* --------------------------------------------
+custom form input styling
+-------------------------------------------- */
+$form-input-alert: #fff3f2;
+$form-input-focus: #fff9b2;
+$form-input-text: #395277;
+$form-input-background: #ecf0f6;
+
+input[type="text"],
+input[type="select"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+#state,
+#request,
+.custom-label,
+select {
+  height: rem-calc(48)!important;
+  padding-left: rem-calc(15);
+  padding-right: rem-calc(30);
+  border-radius: $global-radius;
+  color: darken($form-input-text,10);
+  background-color: lighten($form-input-background,2);
+  border-color: darken($form-input-background,15);
+
+  &:invalid {
+    background-color: lighten($form-input-alert,1.5);
+  }
+
+  &:required:invalid {
+    border-color: darken($form-input-alert, 10);
+  }
+
+  &:required {
+    border-color: darken($success-color, 5);
+    border-width: 1px;
+  }
+
+  &:focus {
+    background-color: lighten($form-input-focus, 10);
+  }
+}
+
+select {
+  margin-bottom: rem-calc(15);
+}
+
+/* -------------------------------------
+keep it separate because of height and not required info
+----------------------------------------- */
+
+textarea {
+  border-radius: $global-radius;
+  padding-left: rem-calc(15);
+  color: darken(#ecf0f6,60);
+}
+
+.gender-label {
+  text-transform: uppercase;
+}
+
+
+/* --------------------------
+custom error messages
+-------------------------- */
+
+.error {
+  line-height: 1.35em;
+  color: #a94442;
+  background-color: lighten($light-gray,10);
+  border-color: #ebccd1;
+  padding: 5px 25px 5px 15px;
+  border-radius: $global-radius;
+}

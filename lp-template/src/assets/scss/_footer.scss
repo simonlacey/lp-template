@@ -1,0 +1,15 @@
+.footer {
+  background-color: darken($dark-gray, 15);
+  padding: rem-calc(30 15);
+  color: $white;
+
+  .footer-company-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .footer-links {
+    font-size: .9rem;
+  }
+
+}

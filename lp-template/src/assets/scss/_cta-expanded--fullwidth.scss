@@ -1,0 +1,15 @@
+.cta-expanded--bkgdimg {
+  padding: rem-calc(30 15);
+  background-image: url("http://placehold.it/1920x100");
+
+  .cta-expanded--header {
+    display: inline-flex;
+    margin-right: rem-calc(200);
+  }
+
+  .cta-button-inline {
+    display: inline-flex;
+    padding: rem-calc(15 30);
+  }
+
+}
