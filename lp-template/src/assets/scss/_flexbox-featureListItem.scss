@@ -1,0 +1,29 @@
+.featureListItem {
+  display: flex;
+  align-items: center;
+  max-width: rem-calc(400);
+  padding: rem-calc(10);
+}
+
+.featureListItem + .featureListItem {
+  border-top: 1px solid $medium-gray;
+}
+
+.featureListItem--reverse {
+  flex-direction: row-reverse;
+}
+
+.featureListItem__icon,
+.featureListItem__description {
+  padding: rem-calc(5 15);
+}
+
+.featureListItem__icon {
+  font-size: 1.75rem;
+  line-height: 0;
+}
+
+.featureListItem__description {
+  color: #57727C;
+  font-size: .75rem;
+}

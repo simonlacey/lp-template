@@ -1,0 +1,39 @@
+.centeredPrompt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: rem-calc(400);
+  width: 60vw;
+  padding: rem-calc(10);
+  border: 1px solid $medium-gray;
+  border-radius: rem-calc(10);
+  margin-top: rem-calc(30);
+}
+
+.centeredPrompt__item + .centeredPrompt__item {
+  margin-top: rem-calc(5);
+}
+
+.centeredPromptIcon {
+  font-size: 5.25rem;
+  line-height: 0;
+}
+
+.centeredPromptLabel {
+  color: darken($primary-color,25);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.centeredPromptDetails {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: rem-calc(30);
+  text-align: center;
+}
+
+.icon {
+  color: #BCD2DA;
+}

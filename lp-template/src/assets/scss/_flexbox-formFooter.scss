@@ -1,0 +1,37 @@
+.formFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $medium-gray;
+  padding: rem-calc(10);
+}
+
+.formFooter__section {
+  display: flex;
+  align-items: center;
+}
+
+.formFooter__item + .formFooter__item {
+  margin-left: rem-calc(5);
+}
+
+.formFooterFeedback {
+  color: $primary-color;
+  font-size: 1rem;
+  line-height: 0;
+}
+
+.formFooterSpinner {
+  animation: formFooterSpinner 1s infinite steps(8, end);
+}
+
+@keyframes formFooterSpinner {
+  0% {transform: rotate(0deg); }
+  100% {transform: rotate(360deg); }
+}
+
+.button--clear {
+  color: $primary-color;
+  background-color: $white;
+  border: 1px solid $primary-color;
+}

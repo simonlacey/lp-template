@@ -1,0 +1,39 @@
+.photo {
+  /**
+   * Lay out the children of this container with
+   * flexbox, which is horizontal by default.
+   */
+  display: flex;
+
+  /**
+   * Align all the children to the end of the main
+   * axis. This is the right side, by default.
+   */
+  justify-content: flex-end;
+
+  /**
+   * Align all the children to the end of the
+   * secondary axis. This is the bottom, by default.
+   */
+  align-items: flex-end;
+
+  width: 430px;
+  margin: 15px;
+  padding: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+
+.photo--large {
+  height: rem-calc(400);
+  width: rem-calc(400);
+}
+
+.photo1 {
+  background-image: url('http://placehold.it/400x400');
+}

@@ -1,0 +1,37 @@
+.siteHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: rem-calc(10);
+  background-color: $light-gray;
+}
+
+.siteHeader__section {
+  display: flex;
+  align-items: center;
+}
+
+.siteHeader__item {
+  padding: rem-calc(5 15);
+  font-size: .9rem;
+}
+
+.siteHeader__item + .siteHeader__item {
+  margin-left: rem-calc(5);
+}
+
+.siteHeader__item.is-site-header-item-selected {
+  color: $white;
+  background-color: $primary-color;
+  border-radius: rem-calc(4);
+}
+
+.siteHeaderLogo {
+  font-size: 1.25rem;
+  line-height: rem-calc(0);
+  color: $primary-color;
+}
+
+.siteHeaderButton {
+  cursor: pointer;
+  color: $black;
+}

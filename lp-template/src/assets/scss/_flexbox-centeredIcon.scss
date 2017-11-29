@@ -1,0 +1,17 @@
+.centeredIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid $light-gray;
+  font-size: rem-calc(40);
+  width: rem-calc(90);
+  height: rem-calc(90);
+  border-radius: 100%;
+
+  box-shadow:
+          0 2px 1px rgba(0, 0, 0, 0.05),
+          0 2px 3px rgba(0, 0, 0, 0.05),
+          0 4px 8px rgba(0, 0, 0, 0.05);
+}

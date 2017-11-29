@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cad0d2;
+  border-radius: rem-calc(4);
+  overflow: hidden;
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: rem-calc(15 0);
+}
+
+.card__descriptionIcon {
+  font-size: rem-calc(40);
+  margin-bottom: rem-calc(10);
+}
+
+.card__descriptionText {
+  color: #57727C;
+  font-size: .8rem;
+  text-align: center;
+  max-width: calc(100% - 30px);
+}
+
+.card__price {
+  text-align: center;
+  color: #57727c;
+  font-size: .8rem;
+  font-weight: 700;
+  padding: rem-calc(5 15);
+  border-top: 1px solid #d7dbdd;
+  background-color: #eef3f5;
+}
+
+.card--fixedWidth {
+  max-width: rem-calc(120);
+}
