@@ -1,0 +1,37 @@
+.stepperInput {
+  display: flex;
+}
+
+.stepperInput__input {
+  border-left: 0;
+  border-right: 0;
+  width: rem-calc(60);
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: rem-calc(5 25);
+  color: #FFFFFF;
+  background-color: #4EBBE4;
+  font-size: 1rem;
+  border: 1px solid #16A2D7;
+  border-radius: rem-calc(4);
+}
+
+.button--addOnLeft {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.button--addOnRight {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input {
+  border: 1px solid $medium-gray;
+  padding: rem-calc(0 10);
+  border-radius: 0;
+  box-shadow: none;
+}

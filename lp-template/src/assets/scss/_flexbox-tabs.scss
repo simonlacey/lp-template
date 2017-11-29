@@ -1,0 +1,16 @@
+.tabs {
+  display: flex;
+  border-bottom: 1px solid $primary-color;
+}
+
+.tab {
+  cursor: pointer;
+  padding: rem-calc(5 30);
+  color: $primary-color;
+  font-size: 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.is-tab-selected {
+  border-bottom-color: $secondary-color;
+}
