@@ -1,22 +1,79 @@
-.features-list--container {
-  border: 1px solid $light-gray;
-  .features-list--item {
-    padding: rem-calc(15);
-    //border: 1px solid $light-gray;
-  }
-  .features-list--header {
-    display: inline-flex;
-    font-size: 1.35rem;
-    font-weight: 700;
-  }
-  .features-list--info {
-    font-size: 1rem;
-    color: $dark-gray;
-  }
-  .features-list--icon {
-    display: inline-flex;
-    margin-right: rem-calc(10);
-  }
+.post {
+  display: flex;
+  margin-bottom: rem-calc(60);
+}
+
+.postUser {
+  flex: 0 1 auto;
+
+  padding-bottom: 10px;
+}
+
+.postUser__portrait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 90px;
+  font-size: 70px;
+  line-height: 0;
+}
+
+.postUser__name {
+  color: #57727C;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.postBody {
+  flex: 1 1 0%;
+
+  position: relative;
+  padding: 15px;
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+}
+
+.postBody:after,
+.postBody:before {
+  right: 100%;
+  top: 35px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.postBody:after {
+  border-color: transparent;
+  border-right-color: #ffffff;
+  border-width: 8px;
+  margin-top: -8px;
+}
+
+.postBody:before {
+  border-color: transparent;
+  border-right-color: #CAD0D2;
+  border-width: 9px;
+  margin-top: -9px;
+}
+
+.postBody__content {
+  color: #57727C;
+  font-size: 12px;
+}
+
+.postBody__date {
+  margin-top: 5px;
+  color: #86969C;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 
@@ -27,6 +84,32 @@
 
 
 
+
+
+
+
+
+
+//.features-list--container {
+//  border: 1px solid $light-gray;
+//  .features-list--item {
+//    padding: rem-calc(15);
+//    //border: 1px solid $light-gray;
+//  }
+//  .features-list--header {
+//    display: inline-flex;
+//    font-size: 1.35rem;
+//    font-weight: 700;
+//  }
+//  .features-list--info {
+//    font-size: 1rem;
+//    color: $dark-gray;
+//  }
+//  .features-list--icon {
+//    display: inline-flex;
+//    margin-right: rem-calc(10);
+//  }
+//}
 
 //.people-you-might-know {
 //  background-color: $white;
