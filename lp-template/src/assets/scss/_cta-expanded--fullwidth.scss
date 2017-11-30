@@ -1,15 +1,59 @@
-.cta-expanded--bkgdimg {
-  padding: rem-calc(30 15);
-  background-image: url("http://placehold.it/1920x100");
+@import "theme";
 
-  .cta-expanded--header {
-    display: inline-flex;
-    margin-right: rem-calc(200);
+.cta-fullwidth--container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  //padding: rem-calc(30 15);
+  background-color: $dark-gray;
+  color: $white;
+  height: 15vh;
+
+  .cta-fullwidth--header {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1rem;
+    //text-transform: uppercase;
   }
 
-  .cta-button-inline {
-    display: inline-flex;
-    padding: rem-calc(15 30);
+  .cta-input-group {
+    max-width: 450px;
   }
 
+  .input-group-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex: 1 1 0;
+    text-align: center;
+    padding: rem-calc(10 0);
+    background-color: $white;
+    color: $secondary-color-dark;
+    max-width: rem-calc(60);
+  }
+
+  .cta-fullwidth--button {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: rem-calc(5 30);
+    //width: 400px;
+  }
 }
+
+
+
+//.cta-expanded--bkgdimg {
+//  padding: rem-calc(30 15);
+//  background-image: url("http://placehold.it/1920x100");
+//
+//  .cta-expanded--header {
+//    display: inline-flex;
+//    margin-right: rem-calc(200);
+//  }
+//
+//  .cta-button-inline {
+//    display: inline-flex;
+//    padding: rem-calc(15 30);
+//  }
+//
+//}
