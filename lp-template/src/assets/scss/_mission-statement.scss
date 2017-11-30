@@ -3,3 +3,33 @@
 .mission-statement {
   padding: $lg-padding;
 }
+
+.color-test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: rem-calc(30);
+
+  .colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: rem-calc(100);
+    height: rem-calc(100);
+    color: $white;
+    text-align: center;
+  }
+
+  .primary-color-dark {
+    background-color: $primary-color-dark;
+  }
+  .primary-color {
+    background-color: $primary-color;
+  }
+  .primary-color-light {
+    background-color: $primary-color-light;
+  }
+
+}

@@ -1,7 +1,25 @@
 /* ---------------------------
-theme modifiers
+theme colors
+//$primary-color-dark: darken($primary-color,10);
 --------------------------- */
 
+$primary-color: #2a46c1;
+$primary-color-dark: #1937ab;
+$primary-color-light: #425be0;
+
+$secondary-color: #ff6866;
+$secondary-color-dark: #f65654;
+$secondary-color-light: #ff7c7a;
+
+$dark-gray: #1c2333;
+$dark-gray-light: #1d2434;
+
+$light-gray: #e5e5e5;
+$light-gray-2: #f3f3f7;
+
+/* ---------------------------
+theme modifiers
+--------------------------- */
 
 
 .content-header {
