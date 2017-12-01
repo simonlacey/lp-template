@@ -21,17 +21,16 @@ $light-gray-2: #f3f3f7;
 theme modifiers
 --------------------------- */
 
-
-.content-header {
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.content-info {
-  font-size: 1rem;
-  font-weight: 400;
-  color: darken($medium-gray, 15);
-}
+//.content-header {
+//  font-size: 2rem;
+//  font-weight: 700;
+//}
+//
+//.content-info {
+//  font-size: 1rem;
+//  font-weight: 400;
+//  color: darken($medium-gray, 15);
+//}
 
 
 $xs-padding: rem-calc(10 5);
@@ -46,84 +45,5 @@ $lg-padding: rem-calc(45 60);
 
 
 /* ----- buttons ----- */
-
-//.button {
-//  font-size: .85rem;
-//  font-weight: 700;
-//  font-family: "Roboto Slab", Arial, serif;
-//  letter-spacing: 3px;
-//  text-transform: uppercase;
-//
-//  @include breakpoint(small) {
-//    padding: rem-calc(20 30);
-//  }
-//  @include breakpoint(medium) {
-//    padding: rem-calc(20 30);
-//  }
-//
-//  &.button-light {
-//    background-color: $light-gray;
-//    color: darken($primary-color,20);
-//  }
-//
-//  &.button-blue {
-//    background-color: $primary-color;
-//    color: $white;
-//  }
-//
-//  &.button-red {
-//    background-color: $secondary-color;
-//    color: $white;
-//  }
-//
-//  &:hover {
-//    background-color: darken($success-color,5);
-//    color: $white;
-//  }
-//
-//}
-
-/* ----- graphics ----- */
-
-// ----- short line graphic
-
-//.short-line {
-//  position: relative;
-//  height: rem-calc(4);
-//  width: rem-calc(55);
-//  margin-bottom: rem-calc(15);
-//
-//  &.short-line-red {
-//    background-color: $secondary-color;
-//  }
-//  &.short-line-blue {
-//    background-color: $primary-color;
-//  }
-//  &.short-line-white {
-//    background-color: $white;
-//  }
-//
-//  &.short-line-hero {
-//    margin: 0 auto;
-//    @include breakpoint(small) {
-//      float: left;
-//      right: 0;
-//      top: 20px;
-//    }
-//    @include breakpoint(medium) {
-//      float: none;
-//      right: 225px;
-//      margin-bottom: rem-calc(15);
-//      top: 20px;
-//    }
-//    @include breakpoint(large) {
-//      right: 270px;
-//      margin-bottom: rem-calc(15);
-//      //top: 30px;
-//    }
-//  }
-//
-//}
-
 
 

@@ -1,38 +1,77 @@
-<div class="grid-container">
-<article class="main-content">
-    <header>
-        <h1>Responsive Form Example</h1>
-            <p>This example demonstrates how to create a simple form layout that can responsively expand and stack depending on the width of the page.</p>
-    </header>
+<!--<div class="form-wrapper">-->
+    <!--<div class="form-header&#45;&#45;section">-->
+        <!--<h3 class="form-header">Fill in this short form</h3>-->
+        <!--<p class="form-subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at aut.</p>-->
+    <!--</div>-->
+    <!--<div class="form-divider">test</div>-->
+    <!--<div class="form-container">-->
+        <!--<form class="contact-form">-->
+            <!--<label>Input Label-->
+                <!--<input type="text" placeholder=".medium-6.cell">-->
+            <!--</label>-->
+            <!--<label>Input Label-->
+                <!--<input type="text" placeholder=".medium-6.cell">-->
+            <!--</label>-->
+        <!--</form>-->
+    <!--</div>-->
+<!--</div>-->
 
-    <div class="form-group">
-        <label>First Name</label>
-        <input value="Rick" class="input-control"/>
-        <label class="right-inline">Last Name</label>
-        <input value="Strahl" class="input-control"/>
-    </div>
 
-    <div class="form-group">
-        <label>Company</label>
-        <input value="West Wind" class="input-control"/>
-    </div>
-
-    <div class="form-group">
-        <label>Address</label>
-        <textarea class="input-control">32 North End</textarea>
-    </div>
-
-    <div class="form-group">
-        <label>City,State,Zip</label>
-        <input value="Walnut Creek" class="input-control" placeholder="City" style="flex: 6"/>
-        <input value="CA" class="input-control" placeholder="State" style="flex:1"/>
-        <input value="94152" class="input-control" placeholder="Postal Code" style="flex:2"/>
-    </div>
-
-    <div class="form-group">
-        <button>Save</button>
-        <button>Cancel</button>
-    </div>
-
-</article>
+<div class="container">
+    <form>
+        <ul class="flex-outer">
+            <li>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter your first name here">
+            </li>
+            <li>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter your last name here">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email here">
+            </li>
+            <li>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Enter your phone here">
+            </li>
+            <li>
+                <label for="message">Message</label>
+                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+            </li>
+            <!--<li>-->
+                <!--<p>Age</p>-->
+                <!--<ul class="flex-inner">-->
+                    <!--<li>-->
+                        <!--<input type="checkbox" id="twenty-to-twentynine">-->
+                        <!--<label for="twenty-to-twentynine">20-29</label>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<input type="checkbox" id="thirty-to-thirtynine">-->
+                        <!--<label for="thirty-to-thirtynine">30-39</label>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<input type="checkbox" id="fourty-to-fourtynine">-->
+                        <!--<label for="fourty-to-fourtynine">40-49</label>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<input type="checkbox" id="fifty-to-fiftynine">-->
+                        <!--<label for="fifty-to-fiftynine">50-59</label>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<input type="checkbox" id="sixty-to-sixtynine">-->
+                        <!--<label for="sixty-to-sixtynine">60-69</label>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<input type="checkbox" id="other">-->
+                        <!--<label for="other">Other</label>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <li>
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+    </form>
 </div>
