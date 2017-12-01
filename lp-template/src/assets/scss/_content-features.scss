@@ -1,33 +1,44 @@
 .img-text--container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  //height: 60vh;
-  //padding: rem-calc(30 0);
   border: 1px solid $light-gray;
   margin-bottom: rem-calc(30);
+
+  @include breakpoint(small) {
+    flex-direction: column;
+  }
+  @include breakpoint(medium) {
+    flex-direction: row;
+  }
 
   .img-container--left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 
     background-color: $primary-color-light;
     color: $white;
     height: 550px;
     width: 600px;
     margin: rem-calc(0 30 0 0);
+    padding: rem-calc(15 45);
   }
 
-  .img-container--name {
-    font-size: 2.5rem;
+  .img-container--info {
+    //max-width: rem-calc(400);
+    text-align: left;
+  }
+
+  .img-container--header {
+    font-size: 2rem;
     font-weight: 700;
+    text-align: left;
   }
 
   .img-text--list-right {
-    max-width: 600px;
+    max-width: rem-calc(600);
     padding: rem-calc(30 0);
   }
 

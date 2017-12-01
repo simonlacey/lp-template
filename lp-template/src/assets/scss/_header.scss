@@ -1,19 +1,42 @@
-.header {
-  padding: rem-calc(15);
-  height: 7vh;
 
-  .logo {
-    font-size: 1.5rem;
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $primary-color;
+  color: $white;
+  padding: rem-calc(15 30);
+
+  .brand-name {
+    font-size: 1.85rem;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: rem-calc(0);
   }
 
-  .contact-number {
+  .header-tollFree-number {
     font-size: 1.5rem;
     font-weight: 700;
+    color: $white;
   }
 
 }
+
+//.header {
+//  padding: rem-calc(15);
+//  height: 7vh;
+//  background-color: $primary-color;
+//  .logo {
+//    font-size: 1.5rem;
+//    font-weight: 700;
+//    text-transform: uppercase;
+//  }
+//  .contact-number {
+//    font-size: 1.5rem;
+//    font-weight: 700;
+//  }
+//}
 
 //.siteHeader {
 //  display: flex;
