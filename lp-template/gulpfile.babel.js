@@ -4,6 +4,7 @@ import plugins       from 'gulp-load-plugins';
 import yargs         from 'yargs';
 import browser       from 'browser-sync';
 import gulp          from 'gulp';
+import connect       from 'gulp-connect-php';
 import panini        from 'panini';
 import rimraf        from 'rimraf';
 import sherpa        from 'style-sherpa';
@@ -137,6 +138,7 @@ function images() {
 function server(done) {
   browser.init({
     server: PATHS.dist, port: PORT
+    // todo - fix proxy: 'localhost:8888' + PATHS.lpdist
   });
   done();
 }
