@@ -59,24 +59,33 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    align-self: stretch;
 
     background-color: $primary-color-light;
     color: $white;
-    height: 550px;
+    //height: 550px;
     width: 600px;
     margin: rem-calc(0 30 0 0);
     padding: rem-calc(15 45);
   }
 
   .img-container--info {
-    //max-width: rem-calc(400);
+    font-size: 1.15rem;
+    color: rgba(255,255,255,0.95);
     text-align: left;
   }
 
   .img-container--header {
-    font-size: 2rem;
+    font-size: 2.35rem;
     font-weight: 700;
     text-align: left;
+  }
+
+  .img-container--subheader {
+    display: block;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1rem;
   }
 
   .img-text--list-right {
@@ -86,9 +95,10 @@
   }
 
   .img-text--item-header {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 700;
-    margin-bottom: rem-calc(10);
+    color: $primary-color-dark;
+    margin-bottom: rem-calc(5);
   }
 
 }
